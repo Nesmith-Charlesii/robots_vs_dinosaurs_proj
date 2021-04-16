@@ -62,7 +62,11 @@ if __name__ == '__main__':
     # show herd stats
     herd_1.herd_stats()
 
-    # instantiate a weapon object and generate a weapon
+    # Instantiate a weapon object. Display weapon. Generate a weapon
     weapon_1 = Weapon()
+    weapon_1.display_weapon()
     weapon_1.generate_weapon()
+
+    # display weapon and attain weapon
+    weapon_1.display_weapon()
     dex.attain_weapon(weapon_1)
