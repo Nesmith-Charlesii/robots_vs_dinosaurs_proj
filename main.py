@@ -17,3 +17,5 @@ if __name__ == '__main__':
     dex.robot_stats()
     robo_jojo.robot_stats()
     chappie.robot_stats()
+
+    dino.dinosaur_stats()
