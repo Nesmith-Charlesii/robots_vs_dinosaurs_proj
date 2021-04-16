@@ -6,4 +6,5 @@ class Dinosaur:
         self.attack_power = 55
 
     def dinosaur_stats(self):
-        print(f"type: {self.type}\nhealth: {self.health}\nenergy: {self.energy}\nattack power: {self.attack_power}\n******")
+        print(
+            f"type: {self.type}\nhealth: {self.health}\nenergy: {self.energy}\nattack power: {self.attack_power}\n******")
