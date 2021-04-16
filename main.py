@@ -1,6 +1,7 @@
 from dinosaur_class import Dinosaur
 from robot_class import Robot
 from fleet_class import Fleet
+from herd_class import Herd
 
 if __name__ == '__main__':
     # instantiate 3 robots
@@ -25,8 +26,8 @@ if __name__ == '__main__':
 
     # assign dinosaur type
     dino.type = 'raptor'
-    gino.type = 'raptor'
-    nino_brown.type = 'raptor'
+    gino.type = 't-rex'
+    nino_brown.type = 'triceratops'
 
     # show dinosaur stats
     dino.dinosaur_stats()
@@ -42,6 +43,20 @@ if __name__ == '__main__':
 
     # add robots to fleet
     fleet_1.add_to_fleet(dex)
+    fleet_1.add_to_fleet(robo_jojo)
+    fleet_1.add_to_fleet(chappie)
 
     # show fleet stats
     fleet_1.fleet_stats()
+
+    # instantiate a herd
+    herd_1 = Herd()
+
+    # assign the herd a name
+    herd_1.herd_name = "land before time"
+
+    # add dinosaurs to herd --> for multiple, separate with commas
+    herd_1.add_to_herd(dino, gino, nino_brown)
+
+    # show herd stats
+    herd_1.herd_stats()
