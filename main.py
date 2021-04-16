@@ -2,6 +2,7 @@ from dinosaur_class import Dinosaur
 from robot_class import Robot
 from fleet_class import Fleet
 from herd_class import Herd
+from weapon_class import Weapon
 
 if __name__ == '__main__':
     # instantiate 3 robots
@@ -60,3 +61,8 @@ if __name__ == '__main__':
 
     # show herd stats
     herd_1.herd_stats()
+
+    # instantiate a weapon object and generate a weapon
+    weapon_1 = Weapon()
+    weapon_1.generate_weapon()
+    dex.attain_weapon(weapon_1)
