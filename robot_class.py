@@ -6,4 +6,3 @@ class Robot:
         self.weapon_type = " "
         self.attack_power = " "
 
-    
