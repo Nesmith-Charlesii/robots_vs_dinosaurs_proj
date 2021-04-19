@@ -11,7 +11,7 @@ class Weapon:
         weapon_list = ['plasma gun', 'rocket launcher', '50 cal', 'kamikaze']
         rand = random.randrange(0, 3)
         generated_weapon = weapon_list[rand]
-        self._attack_power = random.randrange(25, 60)
+        self._attack_power = random.randrange(25, 70)
         self._weapon = generated_weapon
         print(f"generated weapon: {self._weapon}\nattack power: {self._attack_power}\n******")
 

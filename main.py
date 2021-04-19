@@ -21,9 +21,9 @@ if __name__ == '__main__':
     chappie.name = "chappie"
 
     # show robot stats
-    dex.robot_stats()
-    robo_jojo.robot_stats()
-    chappie.robot_stats()
+    print(dex.robot_stats())
+    print(robo_jojo.robot_stats())
+    print(chappie.robot_stats())
 
     # assign dinosaur type
     dino.type = 'raptor'
@@ -69,4 +69,23 @@ if __name__ == '__main__':
 
     # display weapon and attain weapon
     weapon_1.display_weapon()
-    dex.attain_weapon(weapon_1)
+    print(dex.attain_weapon(weapon_1))
+
+    # display robot full stats
+    dex.robot_stats()
+
+    # attack dinosaur
+    print(dex.attack(nino_brown))
+    print(dex.attack(nino_brown))
+    print(dex.attack(nino_brown))
+    print(dex.attack(nino_brown))
+
+    # attack robot
+    print(gino.attack(dex))
+    print(gino.attack(dex))
+    print(gino.attack(dex))
+    print(gino.attack(dex))
+
+    fleet_1.fleet_stats()
+
+
