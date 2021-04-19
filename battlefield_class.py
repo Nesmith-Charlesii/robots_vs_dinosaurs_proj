@@ -16,36 +16,33 @@ class Battlefield:
         self.fleet = fleet()
         self.herd = herd()
 
-    def run_game(self):
-        # while len(self.fleet.fleet_array) < 0 or len(self.herd.herd_array) < 0:
-        #     print("Game over")
-        #     break
-        self.display_welcome()
-        self.battle()
-        self.display_winner()
-
-    def display_welcome(self):
-        pass
-
-    def battle(self):
-        # while len(self.herd.herd_array) > 0 and len(self.fleet.fleet_array) > 0:
-        # robot = self.robo_turn()
-        # dinosaur = self.dino_turn()
-        # robot.attack(dinosaur)
-        # dinosaur.attack(robot)
-        pass
-
-    def dino_turn(self):
-        pass
-
-    def robo_turn(self):
-        pass
-
-    def show_dino_opponent_options(self):
-        pass
-
-    def show_robo_opponent_options(self):
-        pass
-
-    def display_winner(self):
-        pass
+    # def run_game(self):
+    #     # while len(self.fleet.fleet_array) < 0 or len(self.herd.herd_array) < 0:
+    #     #     print("Game over")
+    #     #     break
+    #     self.display_welcome()
+    #     self.battle()
+    #     self.display_winner()
+    #
+    # def display_welcome(self):
+    #     print("Enter the arena of Robots vs Dinosaurs!")
+    #
+    # def battle(self):
+    #     while len(self.herd.herd_array) > 0 and len(self.fleet.fleet_array) > 0:
+    #
+    #         pass
+    #
+    # def dino_turn(self):
+    #     pass
+    #
+    # def robo_turn(self):
+    #     pass
+    #
+    # def show_dino_opponent_options(self):
+    #     pass
+    #
+    # def show_robo_opponent_options(self):
+    #     pass
+    #
+    # def display_winner(self):
+    #     pass
