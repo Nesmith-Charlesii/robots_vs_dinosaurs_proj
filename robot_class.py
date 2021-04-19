@@ -1,4 +1,5 @@
 import random
+# You can import a weapon from the weapon class and assign it to the self._weapon attribute
 
 class Robot:
     def __init__(self):

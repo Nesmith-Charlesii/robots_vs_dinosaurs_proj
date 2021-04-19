@@ -13,7 +13,7 @@ class Weapon:
         generated_weapon = weapon_list[rand]
         self._attack_power = random.randrange(25, 70)
         self._weapon = generated_weapon
-        print(f"generated weapon: {self._weapon}\nattack power: {self._attack_power}\n******")
+        return f"generated weapon: {self._weapon}\nattack power: {self._attack_power}\n******"
 
     def display_weapon(self):
         print(f"Weapon: {self._weapon}\nattack power: {self._attack_power}\n******")

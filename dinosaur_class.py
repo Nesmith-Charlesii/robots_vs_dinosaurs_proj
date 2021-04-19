@@ -16,7 +16,7 @@ class Dinosaur:
             return "robot either no longer exists or has already been destroyed"
         # check if energy level is depleted
         if self._energy <= 0:
-            return "Dinosaur energy depleted. This dinosaur must 'rest()'"
+            return "Dinosaur energy depleted. This dinosaur must rest"
         print(f"Target:\n\trobot name: {robot.name}\n\trobot health: {robot._health}\n******")
         robot._health -= self._attack_power
         self._energy -= 10
